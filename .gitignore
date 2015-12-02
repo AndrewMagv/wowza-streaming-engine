@@ -1,0 +1,5 @@
+# vim tmp file
+*.sw*
+
+# maven output
+target
