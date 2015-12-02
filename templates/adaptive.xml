@@ -21,8 +21,8 @@
 					<Profile>baseline</Profile>
 					<Bitrate>1800000</Bitrate>
 					<KeyFrameInterval>
-						<FollowSource>false</FollowSource>
-						<Interval>2</Interval>
+						<FollowSource>true</FollowSource>
+						<Interval>0</Interval>
 					</KeyFrameInterval>
 					<FrameSize>
 						<FitMode>fit-height</FitMode>
@@ -49,8 +49,8 @@
 					<Profile>baseline</Profile>
 					<Bitrate>900000</Bitrate>
 					<KeyFrameInterval>
-						<FollowSource>false</FollowSource>
-						<Interval>2</Interval>
+						<FollowSource>true</FollowSource>
+						<Interval>0</Interval>
 					</KeyFrameInterval>
 					<FrameSize>
 						<FitMode>fit-height</FitMode>
@@ -77,8 +77,8 @@
 					<Profile>baseline</Profile>
 					<Bitrate>500000</Bitrate>
 					<KeyFrameInterval>
-						<FollowSource>false</FollowSource>
-						<Interval>2</Interval>
+						<FollowSource>true</FollowSource>
+						<Interval>0</Interval>
 					</KeyFrameInterval>
 					<FrameSize>
 						<FitMode>fit-height</FitMode>
