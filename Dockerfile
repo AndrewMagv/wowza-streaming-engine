@@ -16,6 +16,8 @@ COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 # install live stream config and transcode template
 COPY live/ /usr/local/WowzaStreamingEngine/conf/live/
 COPY templates/ /usr/local/WowzaStreamingEngine/transcoder/templates/
+COPY auth/target/livestream-auth-0.0.1.jar /usr/local/WowzaStreamingEngine/lib/
+COPY auth/target/jedis-2.8.0.jar /usr/local/WowzaStreamingEngine/lib/
 
 # install WowzaStreamingEngine and WowzaStreamingMananger init script
 COPY wowza-engine-start.sh /usr/local/bin/wowza-engine-start
