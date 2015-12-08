@@ -11,7 +11,7 @@ public class Auth extends AuthenticateUsernamePasswordProviderBase
 
     public Auth() {
         super();
-        jedis = new Jedis("localhost", 6379);
+        jedis = new Jedis("ambassador", 6379);
         try {
             jedis.select(1);
         }
